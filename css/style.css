@@ -1,0 +1,585 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-color: #998c5fa1;
+}
+
+.hero-section .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    max-width: 600px;
+    text-align: center;
+}
+
+.hero-section .hero-content h1 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.hero-section .hero-content p {
+    font-size: 20px;
+    margin: 10px 0 30px;
+    line-height: 1.5;
+}
+
+.hero-section .hero-content .btn {
+    padding: 15px 30px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-section .hero-content .btn:hover {
+    background-color: #218838;
+}
+
+.imagenFlecha {
+    text-align: center;
+    margin: 30px;
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+
+.weather-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.weather-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+}
+
+.weather-input-group {
+    margin-bottom: 15px;
+}
+
+.weather-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.weather-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.weather-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.weather-button:hover {
+    background-color: #0056b3;
+}
+
+.weather-result {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #333;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container .contact-form-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.container .contact-header {
+    color: #2ecc71;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.container .contact-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container .contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.container .contact-form .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container .contact-form .form-group input,
+.container .contact-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.container .contact-form .form-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.container .contact-form .checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.container .contact-form .form-group .required {
+    color: red;
+}
+
+.container .contact-form .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container .contact-form .submit-btn:hover {
+    background-color: #27ae60;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #2b2b2b;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.header p {
+    color: #6cb87c;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card-grid .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    flex: 1;
+}
+.budget-section {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.budget-form {
+    margin-bottom: 30px;
+}
+
+.budget-form .form-group {
+    margin-bottom: 15px;
+}
+
+.budget-form .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.budget-form .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.budget-summary h3,
+.expenses-list h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.budget-summary p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.budget-summary span {
+    font-weight: bold;
+}
+
+.expenses-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expenses-list ul li {
+    background-color: #f4f8f7;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.expenses-list ul li span {
+    font-weight: bold;
+}
+
+.guest-management-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.guest-management-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.guest-list {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.guest-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.guest-list li:last-child {
+    border-bottom: none;
+}
+
+.guest-list button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.guest-list button:hover {
+    background-color: #c0392b;
+}
+
+.invitation-customization-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.invitation-customization-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.invitation-customization-section .form-group {
+    margin-bottom: 15px;
+}
+
+.invitation-customization-section .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.invitation-customization-section .form-group input,
+.invitation-customization-section .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.invitation-customization-section .btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.invitation-customization-section .btn:hover {
+    background-color: #27ae60;
+}
+
+.invitation-preview {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.invitation-preview h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.invitation-preview p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#countdown {
+    font-size: 24px;
+    color: #e74c3c;
+    margin-top: 20px;
+}
+
+.invitation-preview {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Georgia', serif;
+}
+#previewBrideGroomNames {
+    font-size: 2em;
+    color: #2b2b2b;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+#previewLovePhrase {
+    font-style: italic;
+    color: #6cb87c;
+}
+#previewDescription {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+#map {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#location-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#location-list li {
+    padding: 8px;
+    cursor: pointer;
+}
+#location-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.footer {
+    background-color: #585757;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px 0;
+}
+
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+.footer-section.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.footer-section.social-icons img {
+    width: 32px;
+    height: 32px;
+    filter: invert(100%);
+}
+
+
+.footer-section.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
+#searchInput {
+    padding: 10px;
+    margin-top: 10px;
+    width: calc(100% - 22px);
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#updateButton {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-grid{
+    margin: 50px;
+}
+.templates-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.template-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+#templateDisplay {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.template-element {
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.template-element label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: calc(100% - 18px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

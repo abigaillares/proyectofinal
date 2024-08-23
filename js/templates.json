@@ -1,0 +1,81 @@
+[
+    {
+        "id": "Boda",
+        "title": "Boda clasica",
+        "elements": [
+            {
+                "type": "text",
+                "content": "Te invitamos cordialmente a celebrar nuestro casamiento"
+            },
+            {
+                "type": "input",
+                "label": "Nombre de la Pareja",
+                "variable": "anniversaryNumber",
+                "placeholder": "Gabriela"
+            },
+            {
+                "type": "input",
+                "label": "Nombre de la Pareja",
+                "variable": "coupleName",
+                "placeholder": "Nombres de la pareja"
+            },
+            {
+                "type": "input",
+                "label": "Fecha del Evento",
+                "variable": "eventDate",
+                "placeholder": "DD/MM/YYYY"
+            },
+            {
+                "type": "input",
+                "label": "Ubicación del Evento",
+                "variable": "eventLocation",
+                "placeholder": "Dirección del Evento"
+            },
+            {
+                "type": "text",
+                "content": "Esperamos contar con tu grata compañía para celebrar juntos este momento tan especial."
+            }
+        ]
+    },
+    {
+        "id": "anniversary",
+        "title": "Aniversario",
+        "elements": [
+            {
+                "type": "text",
+                "content": "Te invitamos cordialmente a celebrar nuestro"
+            },
+            {
+                "type": "input",
+                "label": "Número de Aniversario",
+                "variable": "anniversaryNumber",
+                "placeholder": "Ej: 25º"
+            },
+            {
+                "type": "input",
+                "label": "Nombre de la Pareja",
+                "variable": "coupleName",
+                "placeholder": "Nombres de la pareja"
+            },
+            {
+                "type": "input",
+                "label": "Fecha del Evento",
+                "variable": "eventDate",
+                "placeholder": "DD/MM/YYYY"
+            },
+            {
+                "type": "input",
+                "label": "Ubicación del Evento",
+                "variable": "eventLocation",
+                "placeholder": "Dirección del Evento"
+            },
+            {
+                "type": "text",
+                "content": "Esperamos contar con tu grata compañía para celebrar juntos este momento tan especial."
+            }
+        ]
+    }
+    
+    
+    
+]

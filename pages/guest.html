@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Invitados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <header>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="guest.html">Guest</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="invitation.html">Invitation</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="budget.html">Budget</a>
+                      </li>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+    </header>
+    <div class="container">
+        <h1>Gestión de Invitados</h1>
+        <form id="guestForm">
+            <input type="text" id="guestName" placeholder="Nombre del invitado" required>
+            <input type="email" id="guestEmail" placeholder="Correo electrónico" required>
+            <button type="submit">Agregar Invitado</button>
+            <button type="button" id="updateButton" style="display:none;">Actualizar Invitado</button>
+        </form>
+        <input type="text" id="searchInput" placeholder="Buscar invitado">
+        <ul id="guestList"></ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
